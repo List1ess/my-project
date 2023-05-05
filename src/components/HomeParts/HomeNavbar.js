@@ -52,12 +52,29 @@ export default function HomeNavbar() {
             : "fixed left-[-100%] duration-500 ease-in-out"
         }
       >
+        <Link to="/Home">
         <li className="border-b border-gray-600 p-4">Home</li>
+        </Link>
+
+        <Link to="/Tech">
         <li className="border-b border-gray-600 p-4">Tech</li>
+        </Link>
+        
+        <Link to="/Archive">
         <li className="border-b border-gray-600 p-4">Archive</li>
+        </Link>
+
+        <Link to="/Content">
         <li className="border-b border-gray-600 p-4">Content</li>
+        </Link>
+
+        <Link to="/Media">
         <li className="border-b border-gray-600 p-4">Media</li>
+        </Link>
+        
+        <Link to="/Mission">
         <li className="border-b border-gray-600 p-4">Mission</li>
+        </Link>
       </ul>
     </div>
   );
