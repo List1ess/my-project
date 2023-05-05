@@ -52,7 +52,7 @@ export default function HomeNavbar() {
             : "fixed left-[-100%] duration-500 ease-in-out"
         }
       >
-        <Link to="/Home">
+        <Link to="/">
         <li className="border-b border-gray-600 p-4">Home</li>
         </Link>
 
